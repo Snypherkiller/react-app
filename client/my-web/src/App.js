@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Snypherkiller/Electronics-inventory-control-system"
           target="_blank"
           rel="noopener noreferrer"
         >
