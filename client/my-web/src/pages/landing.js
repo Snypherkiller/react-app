@@ -1,37 +1,33 @@
-import React from 'react'
-import main from '../assets/images/main.svg' 
 import logo from '../assets/images/logo.svg'
+import main from '../assets/images/main.svg'
 import styled from 'styled-components'
-const landing = () => {
+import Wrapper from '../assets/wrappers/Testing'
+const Landing = () => {
   return (
+    <Wrapper>
     <div>
-      <Wrapper>
-        <nav>
-            <img src={logo} alt='jobify' className='logo'/>
-        </nav>
-        <div className='container page'>
-            <div className='info'>
-                <h1>
-                    job <span> tracking </span> app
-                </h1>
-                <p>
-                I'm baby forage vegan YOLO, lomo ramps sartorial praxis. Fingerstache whatever man braid, health goth farm-to-table drinking vinegar iPhone humblebrag. Stumptown tofu polaroid leggings literally pickled chartreuse organic vegan post-ironic aesthetic tumeric forage. Semiotics yuccie four loko kinfolk mustache franzen scenester ennui XOXO shabby chic pinterest. Health goth slow-carb man braid, seitan af tonx coloring book cardigan affogato air plant woke.
-                </p>
-                <button className='btn btn-hero'>
-                    Login/Register
-                </button>
-                <img src={main} alt='Job-hunt' className='img main-img' />
-            </div>
+      <nav>
+        <img src={logo} alt="jobify" className='logo'/>
+      </nav>
+      <div className="container page">
+        <div className='info'>
+            <h1>
+                job <span>tracking</span> app
+            </h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus, nisl ac aliquam pulvinar,
+             metus velit ornare ligula, sed pulvinar lectus neque eu augue. Pellentesque auctor, quam eu porta elementum,
+              neque magna posuere augue, in malesuada sapien diam ac felis. Morbi molestie tellus ut elit rutrum, eget imperdiet justo feugiat.
+            </p>
+            <button className='btn btn-hero'>Login/Register</button>
         </div>
-      </Wrapper>
+        <img src={main} alt='job-hunt' className='img main-img'/>
+      </div>
     </div>
+    </Wrapper>
   )
 }
-const Wrapper = styled.main 
-`
 
 
 
-`
-
-export default landing
+export default Landing
