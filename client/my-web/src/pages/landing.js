@@ -1,10 +1,11 @@
 import React from 'react'
-import main from '../assets/images/main.svg'
+import main from '../assets/images/main.svg' 
 import logo from '../assets/images/logo.svg'
+import styled from 'styled-components'
 const landing = () => {
   return (
     <div>
-      <main>
+      <Wrapper>
         <nav>
             <img src={logo} alt='jobify' className='logo'/>
         </nav>
@@ -22,9 +23,15 @@ const landing = () => {
                 <img src={main} alt='Job-hunt' className='img main-img' />
             </div>
         </div>
-      </main>
+      </Wrapper>
     </div>
   )
 }
+const Wrapper = styled.main 
+`
+
+
+
+`
 
 export default landing
