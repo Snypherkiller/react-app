@@ -1,25 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+ 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/Snypherkiller/Electronics-inventory-control-system"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to the new react project
-        </a>
-      </header>
-    </div>
-  );
+  return <h1>Jobify</h1>
+    
+ 
 }
 
 export default App;
