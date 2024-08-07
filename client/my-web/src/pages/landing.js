@@ -17,7 +17,7 @@ const Landing = () => {
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus, nisl ac aliquam pulvinar,
              metus velit ornare ligula, sed pulvinar lectus neque eu augue. Pellentesque auctor, quam eu porta elementum,
-              neque magna posuere augue, in malesuada sapien diam ac felis. Morbi molestie tellus ut elit rutrum, eget imperdiet justo feugiat.
+              neque magna posuere augue, in malesuada sapien diam ac felis. best performance
             </p>
             <button className='btn btn-hero'>Login/Register</button>
         </div>
