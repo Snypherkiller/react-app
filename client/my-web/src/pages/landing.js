@@ -17,9 +17,7 @@ const Landing = () => {
                 job <span>tracking</span> app
             </h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus, nisl ac aliquam pulvinar,
-             metus velit ornare ligula, sed pulvinar lectus neque eu augue. Pellentesque auctor, quam eu porta elementum,
-              neque magna posuere augue, in malesuada sapien diam ac felis. best performance
+            This is a mistake. Here, we’ll refer to some time-honored typesetting conventions, with an emphasis on readability, and offer guidance on adapting them effectively for devices and screens. We’ll see that the ability to embed fonts with @font-face is not by itself a solution to all of our typographic challenges.
             </p>
             <button className='btn btn-hero'>Login/Register</button>
         </div>
